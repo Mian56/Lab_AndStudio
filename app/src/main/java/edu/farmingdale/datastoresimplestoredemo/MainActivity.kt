@@ -68,6 +68,7 @@ class MainActivity : ComponentActivity() {
 fun DataStoreDemo(modifier: Modifier) {
     val store = AppStorage(LocalContext.current)
     val appPrefs = store.appPreferenceFlow.collectAsState(AppPreferences())
+
     val coroutineScope = rememberCoroutineScope()
     Column (modifier = Modifier.padding(50.dp)) {
         Text("Values = ${appPrefs.value.userName}, " +
