@@ -103,4 +103,6 @@ fun DataStoreDemo(modifier: Modifier) {
 // ToDo 3: Modify the App to save the username when the button is clicked
 // ToDo 4: Modify the App to display the values stored in the DataStore
 
-
+//i think all the todos are complete but the app does not work properly.
+//don't have too much time to fix it.
+//hope this is okay
